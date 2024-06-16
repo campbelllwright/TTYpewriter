@@ -17,7 +17,7 @@ Converting electronic typewriters to terminals
     - [ ] Implement function keys ('code', 'backspace', 'left'/'right', etc.)
   - Stage Two: Dumb Terminal
     - [x] Set up basic terminal on mega
-    - [ ] Detect Keyboard scan pulses and set corresponding rows/cols high
+    - [ ] Detect Keyboard scan pulses and set corresponding rows/cols high to simulate keystrokes
     - [ ] add ability to switch between typewriter (passthrough) and terminal (only print RX/echo) modes
   - Stage Three: TTY
     - [ ] Set up client for protocol of choice (TBD, possibly Telnet or SSH) on ESP8266.
